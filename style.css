@@ -1,0 +1,11 @@
+h1 {
+    display: inline-block;
+    animation: amazing 6s linear infinite alternate; 
+}
+@keyframes amazing {
+    0% {color: rgb(197, 4, 4); }
+    25% {color: blue; }
+    50% {color: rgb(22,231,22); }
+    75% {color: rgb(255, 136, 0); }
+    100% {transform: translateX(101%); color: rgb(231, 97, 130);}
+}
